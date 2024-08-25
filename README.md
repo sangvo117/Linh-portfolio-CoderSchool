@@ -34,7 +34,3 @@ This portfolio was built as a personal showcase for Linh's work, featuring:
 ## Acknowledgments
 - **Mentor:** Sang Vo, for providing guidance and support throughout the development of this portfolio.
 - **CoderSchool:** For the curriculum and resources that helped in creating this project.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
