@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>Linh - Portfolio</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <!-- Start Header -->
+    <header class="header-area">
+        <div class="main-menu">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+                <div class="container-lg">
+                    <a class="navbar-brand" href="#profile">
+                        <h2 class="fw-bold text-primary">Linh</h2>
+                    </a>
+                    <!-- Toggle button for mobile nav -->
+                    <button class="navbar-toggler btn my-2 my-sm-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-haspopup="true" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Navbar links -->
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item px-4">
+                                <a class="nav-link text-uppercase fw-bold" href="#profile">Home</a>
+                            </li>
+                            <li class="nav-item px-4">
+                                <a class="nav-link text-uppercase fw-bold" href="#resume">Resume</a>
+                            </li>
+                            <li class="nav-item px-4">
+                                <a class="nav-link text-uppercase fw-bold" href="#projects">Projects</a>
+                            </li>
+                            <li class="nav-item px-4">
+                                <a class="nav-link text-uppercase fw-bold" href="#contact">Contact</a>
+                            </li>
+                            <li class="nav-item py-lg-1 col-12 col-lg-auto">
+                                <div class="vr d-none d-lg-flex h-100 mx-lg-2 text-transparent"></div>
+                                <hr class="d-lg-none my-2 text-transparent">
+                            </li>
+                            <li class="nav-item px-4 dropdown">
+                                <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="theme-menu"
+                                    aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static"
+                                    aria-label="Toggle theme">
+                                    <i class="bi bi-circle-half"></i>
+                                    <span class="d-lg-none ms-2 text-uppercase fw-bold">Toggle theme</span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li>
+                                        <button type="button" class="dropdown-item d-flex align-items-center"
+                                            data-bs-theme-value="light" aria-pressed="false">
+                                            <i class="bi bi-sun-fill"></i><span class="ms-2 text-uppercase">Light</span>
+                                        </button>
+                                    </li>
+                                    <li>
+                                        <button type="button" class="dropdown-item d-flex align-items-center"
+                                            data-bs-theme-value="dark" aria-pressed="true">
+                                            <i class="bi bi-moon-stars-fill"></i><span
+                                                class="ms-2 text-uppercase">Dark</span>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- End Header -->
+
+    <!-- Start profile -->
+    <section id="profile" class="container py-5">
+        <div class="container-lg">
+            <div class="row min-vh-75 align-items-center align-content-center">
+                <!-- Image Column -->
+                <div class="col-md-6 mt-5">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img src="assets/images/avatar.png" alt="Linh Lu's profile picture"
+                            class="image-width rounded-circle" />
+                    </div>
+                </div>
+                <!-- Text Column -->
+                <div class="col-md-6 mt-5">
+                    <div class="">
+                        <p class="text-muted mb-1">Hello, I'm</p>
+                        <h1 class="fs-1 fw-bold">Linh Lu</h1>
+                        <h3 class="fs-3 mb-4">Security Engineer</h2>
+                            <div class="btn-container mb-4">
+                                <button class="btn btn-primary" onclick="window.open('./assets/resume-example.pdf')">
+                                    Download CV
+                                </button>
+                                <button class="btn btn-outline-primary" onclick="location.href='#contact'">
+                                    Contact Info
+                                </button>
+                            </div>
+                            <div id="socials-container">
+                                <a href="mailto:linh@somewhere.com" class="btn btn-outline-primary ms-2 btn-icon"><i
+                                        class="bi bi-google"></i></a>
+                                <a href="https://www.linkedin.com/" class="btn btn-outline-primary ms-2 btn-icon"><i
+                                        class="bi bi-linkedin"></i></a>
+                                <a href="https://github.com/" class="btn btn-outline-primary ms-2 btn-icon"><i
+                                        class="bi bi-github"></i></a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End profile -->
+
+    <!-- Resume -->
+    <div id="resume" class="my-5 min-vh-100 align-items-center align-content-center">
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-12 aos-init" data-aos="fade-up">
+                    <div class="intro-section text-center mb-5">
+                        <h1 class="fw-bold mb-3">My Resume</h1>
+                        <p class="mx-auto">There are many variations of passages of Lorem Ipsum available but the
+                            majority have suffered alteration in some form by injected humour</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row gy-4 p-5 aos-init aos-animate d-flex justify-content-center align-items-center"
+                data-aos="fade-up" data-aos-delay="200">
+                <div class="col-md-6 d-flex justify-content-center shadow border-hover card m-3"
+                    style="max-width: 22rem;">
+                    <div class="card-body">
+                        <h4 class="card-title">Experience</h4>
+                        <ul class="list-group">
+                            <li
+                                class="list-group-item list-group-item-light d-flex justify-content-between align-items-center border-hover">
+                                Software Developer
+                                <span class="badge bg-primary rounded-1 py-2">2 years</span>
+                            </li>
+                            <li
+                                class="list-group-item list-group-item-light d-flex justify-content-between align-items-center border-hover">
+                                Security Engineer
+                                <span class="badge bg-primary rounded-1 py-2">1+ year</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center shadow border-hover card m-3"
+                    style="max-width: 22rem;">
+                    <div class="card-body">
+                        <h4 class="card-title">Education</h4>
+                        <ul class="list-group">
+                            <li
+                                class="list-group-item list-group-item-light d-flex justify-content-between align-items-center border-hover">
+                                Bachelors Degree
+                                <span class="badge bg-primary rounded-1 py-2">2022</span>
+                            </li>
+                            <li
+                                class="list-group-item list-group-item-light d-flex justify-content-between align-items-center border-hover">
+                                Masters Degree
+                                <span class="badge bg-primary rounded-1 py-2">2024</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container p-5">
+            <div class="row ">
+                <div class="col-12 aos-init" data-aos="fade-up">
+                    <div class="intro-section text-center mb-5">
+                        <h1 class="fw-bold mb-3">My Skills</h1>
+                        <p class="mx-auto">There are many variations of passages of Lorem Ipsum available but
+                            the majority have suffered alteration in some form by injected humour</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row gy-4 p-5 aos-init aos-animate d-flex justify-content-center align-items-center"
+                data-aos="fade-up" data-aos-delay="200">
+                <div class="col-md-6 d-flex justify-content-center shadow border-hover card m-3"
+                    style="max-width: 22rem;">
+                    <div class="card-body">
+                        <h4 class="card-title">Development</h4>
+                        <ul class="list-group">
+                            <li
+                                class="list-group-item list-group-item-light d-flex justify-content-between align-items-center border-hover">
+                                C
+                            </li>
+                            <li
+                                class="list-group-item list-group-item-light d-flex justify-content-between align-items-center border-hover">
+                                Python
+                            </li>
+                            <li
+                                class="list-group-item list-group-item-light d-flex justify-content-between align-items-center border-hover">
+                                HTML, CSS
+                            </li>
+                            <li
+                                class="list-group-item list-group-item-light d-flex justify-content-between align-items-center border-hover">
+                                JavaScript
+                            </li>
+                            <li
+                                class="list-group-item list-group-item-light d-flex justify-content-between align-items-center border-hover">
+                                SQL
+                            </li>
+                            <li
+                                class="list-group-item list-group-item-light d-flex justify-content-between align-items-center border-hover">
+                                FLask
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center shadow border-hover card m-3"
+                    style="max-width: 22rem;">
+                    <div class="card-body">
+                        <h4 class="card-title">Cyber Security</h4>
+                        <ul class="list-group">
+                            <li
+                                class="list-group-item list-group-item-light d-flex justify-content-between align-items-center border-hover">
+                                C
+                            </li>
+                            <li
+                                class="list-group-item list-group-item-light d-flex justify-content-between align-items-center border-hover">
+                                Python
+                            </li>
+                            <li
+                                class="list-group-item list-group-item-light d-flex justify-content-between align-items-center border-hover">
+                                HTML, CSS
+                            </li>
+                            <li
+                                class="list-group-item list-group-item-light d-flex justify-content-between align-items-center border-hover">
+                                JavaScript
+                            </li>
+                            <li
+                                class="list-group-item list-group-item-light d-flex justify-content-between align-items-center border-hover">
+                                SQL
+                            </li>
+                            <li
+                                class="list-group-item list-group-item-light d-flex justify-content-between align-items-center border-hover">
+                                FLask
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- End Resume -->
+
+    <!-- Start Projects -->
+    <div id="projects" class="my-5 p-5">
+        <div class="container min-vh-100 align-items-center align-content-center">
+            <div class="row">
+                <div class="col-12 aos-init" data-aos="fade-up">
+                    <div class="intro-section text-center mb-5">
+                        <h1 class="fw-bold mb-3">My Projects</h1>
+                        <p class="mx-auto">There are many variations of passages of Lorem Ipsum available but
+                            the majority have suffered alteration in some form by injected humour</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row gy-4">
+                <div id="project1" class="col-md-6 col-lg-4 aos-init aos-animate" data-aos="fade-up"
+                    data-aos-delay="100">
+                    <div class="p-4 border-hover shadow rounded-3">
+                        <img src="./assets/images/close-up-student-online-class.jpg" class="img-fluid rounded-3 mb-3"
+                            alt="">
+                        <span class="badge bg-primary p-2">Full-Stack</span>
+                        <a class="badge bg-primary p-2" href="https://www.youtube.com/" target="_blank">Demo</a>
+                        <div class="accordion mt-3">
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button pb-2 pt-3 collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                                        aria-controls="collapseOne">
+                                        <h5 class="fw-bold">Project Heading</h5>
+                                    </button>
+                                </h4>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                    style="">
+                                    <div class="accordion-body">
+                                        <strong>This is the first item's accordion body.</strong> It is shown by
+                                        default, until the collapse plugin adds the appropriate classes that we use
+                                        to style each element. These classes control the overall appearance, as well
+                                        as the showing and hiding via CSS transitions. You can modify any of this
+                                        with custom CSS or overriding our default variables. It's also worth noting
+                                        that just about any HTML can go within the <code>.accordion-body</code>,
+                                        though the transition does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="project2" class="col-md-6 col-lg-4 aos-init aos-animate" data-aos="fade-up"
+                    data-aos-delay="200">
+                    <div class="p-4 border-hover shadow rounded-3">
+                        <img src="./assets/images/programming-software-code-application-technology-concept.jpg"
+                            class="img-fluid rounded-3 mb-3" alt="">
+                        <span class="badge bg-primary p-2">Scratch</span>
+                        <a class="badge bg-primary p-2" href="https://github.com" target="_blank">Demo</a>
+                        <div class="accordion mt-3">
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button pb-2 pt-3 collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        <h5 class="fw-bold">Project Heading</h5>
+                                    </button>
+                                </h4>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    style="">
+                                    <div class="accordion-body">
+                                        <strong>This is the first item's accordion body.</strong> It is shown by
+                                        default, until the collapse plugin adds the appropriate classes that we use
+                                        to style each element. These classes control the overall appearance, as well
+                                        as the showing and hiding via CSS transitions. You can modify any of this
+                                        with custom CSS or overriding our default variables. It's also worth noting
+                                        that just about any HTML can go within the <code>.accordion-body</code>,
+                                        though the transition does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="project3" class="col-md-6 col-lg-4 aos-init aos-animate" data-aos="fade-up"
+                    data-aos-delay="300">
+                    <div class="p-4 border-hover shadow rounded-3 mb-4">
+                        <img src="./assets/images/code-coding-programming-technology-technical-concept.jpg"
+                            class="img-fluid rounded-3 mb-3" alt="">
+                        <span class="badge bg-primary p-2">C & Python</span>
+                        <a class="badge bg-primary p-2" href="https://github.com" target="_blank ">Demo</a>
+                        <div class="accordion mt-3">
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button pb-2 pt-3 collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <h5 class="fw-bold">Project Heading</h5>
+                                    </button>
+                                </h4>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" style="">
+                                    <div class="accordion-body">
+                                        <strong>This is the first item's accordion body.</strong> It is shown by
+                                        default, until the collapse plugin adds the appropriate classes that we use
+                                        to style each element. These classes control the overall appearance, as well
+                                        as the showing and hiding via CSS transitions. You can modify any of this
+                                        with custom CSS or overriding our default variables. It's also worth noting
+                                        that just about any HTML can go within the <code>.accordion-body</code>,
+                                        though the transition does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="project4" class="col-md-6 col-lg-4 aos-init" data-aos="fade-up" data-aos-delay="100">
+                    <div class="p-4 border-hover shadow rounded-3">
+                        <img src="./assets/images/programming-software-code-application-technology-concept.jpg"
+                            class="img-fluid rounded-3 mb-3" alt="">
+                        <span class="badge bg-primary p-2">HTML, CSS & JavaScript</span>
+                        <a class="badge bg-primary p-2" href="https://github.com" target="_blank">Demo</a>
+                        <div class="accordion mt-3">
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button pb-2 pt-3 collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        <h5 class="fw-bold">Project Heading</h5>
+                                    </button>
+                                </h4>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    style="">
+                                    <div class="accordion-body">
+                                        <strong>This is the first item's accordion body.</strong> It is shown by
+                                        default, until the collapse plugin adds the appropriate classes that we use
+                                        to style each element. These classes control the overall appearance, as well
+                                        as the showing and hiding via CSS transitions. You can modify any of this
+                                        with custom CSS or overriding our default variables. It's also worth noting
+                                        that just about any HTML can go within the <code>.accordion-body</code>,
+                                        though the transition does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="project5" class="col-md-6 col-lg-4 aos-init" data-aos="fade-up" data-aos-delay="200">
+                    <div class="p-4 border-hover shadow rounded-3">
+                        <img src="./assets/images/code-coding-programming-technology-technical-concept.jpg"
+                            class="img-fluid rounded-3 mb-3" alt="">
+                        <span class="badge bg-primary p-2">SQL</span>
+                        <a class="badge bg-primary p-2" href="https://github.com" target="_blank">Demo</a>
+                        <div class="accordion mt-3">
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button pb-2 pt-3 collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseFive">
+                                        <h5 class="fw-bold">Project Heading</h5>
+                                    </button>
+                                </h4>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                    style="">
+                                    <div class="accordion-body">
+                                        <strong>This is the first item's accordion body.</strong> It is shown by
+                                        default, until the collapse plugin adds the appropriate classes that we use
+                                        to style each element. These classes control the overall appearance, as well
+                                        as the showing and hiding via CSS transitions. You can modify any of this
+                                        with custom CSS or overriding our default variables. It's also worth noting
+                                        that just about any HTML can go within the <code>.accordion-body</code>,
+                                        though the transition does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="project6" class="col-md-6 col-lg-4 aos-init" data-aos="fade-up" data-aos-delay="300">
+                    <div class="p-4 border-hover shadow rounded-3">
+                        <img src="./assets/images/close-up-student-online-class.jpg" class="img-fluid rounded-3 mb-3"
+                            alt="">
+                        <span class="badge bg-primary p-2">Flask - Python</span>
+                        <a class="badge bg-primary p-2" href="https://github.com" target="_blank">Demo</a>
+                        <div class="accordion mt-3">
+                            <div class="accordion-item">
+                                <h4 class="accordion-header">
+                                    <button class="accordion-button pb-2 pt-3 collapsed" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"
+                                        aria-controls="collapseSix">
+                                        <h5 class="fw-bold">Project Heading</h5>
+                                    </button>
+                                </h4>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                    style="">
+                                    <div class="accordion-body">
+                                        <strong>This is the first item's accordion body.</strong> It is shown by
+                                        default, until the collapse plugin adds the appropriate classes that we use
+                                        to style each element. These classes control the overall appearance, as well
+                                        as the showing and hiding via CSS transitions. You can modify any of this
+                                        with custom CSS or overriding our default variables. It's also worth noting
+                                        that just about any HTML can go within the <code>.accordion-body</code>,
+                                        though the transition does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Projects -->
+
+
+    <!-- Start New Contact -->
+
+    <div id="contact" class="my-5 p-5">
+        <div class="container min-vh-75 align-items-center align-content-center">
+            <div class="row">
+                <div class="col-12 aos-init aos-animate" data-aos="fade-up">
+                    <div class="intro-section text-center mb-5">
+                        <h1 class="fw-bold mb-3">Contact Me</h1>
+                        <p class="mx-auto">Feel free to contact me through my social media.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row gy-4">
+                <div class="col-md-6 col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service border-hover p-4 shadow rounded-3">
+                        <div class="btn btn-outline-primary ms-2 btn-icon"><i class="bi bi-envelope-fill"></i></div>
+                        <h5 class="mt-4 fw-bold">Email Me</h5>
+                        <p class="mb-0">Linh@somewhere.com</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service border-hover p-4 shadow rounded-3">
+                        <div class="btn btn-outline-primary ms-2 btn-icon"><i class="bi bi-github"></i></div>
+                        <h5 class="mt-4 fw-bold">My Github</h5>
+                        <p class="mb-0">https://github.com</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 aos-init" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service border-hover p-4 shadow rounded-3">
+                        <div class="btn btn-outline-primary ms-2 btn-icon"><i class="bi bi-facebook"></i></div>
+                        <h5 class="mt-4 fw-bold">My Facebook</h5>
+                        <p class="mb-0">https://facebook.com</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service border-hover p-4 shadow rounded-3">
+                        <div class="btn btn-outline-primary ms-2 btn-icon"><i class="bi bi-telephone-fill"></i></div>
+                        <h5 class="mt-4 fw-bold">Phone Number</h5>
+                        <p class="mb-0">098 765 4321</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 aos-init" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service border-hover p-4 shadow rounded-3">
+                        <div class="btn btn-outline-primary ms-2 btn-icon"><i class="bi bi-linkedin"></i></div>
+                        <h5 class="mt-4 fw-bold">My LinkedIn</h5>
+                        <p class="mb-0">https://linkedin.com</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 aos-init" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service border-hover p-4 shadow rounded-3">
+                        <div class="btn btn-outline-primary ms-2 btn-icon"><i class="bi bi-youtube"></i></div>
+                        <h5 class="mt-4 fw-bold">YouTube Channel</h5>
+                        <p class="mb-0">https://youtube.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End New Contact -->
+
+    <!-- Start Footer -->
+    <footer class="py-3 mt-5 bg-body-tertiary shadow-top">
+        <div class="container d-flex align-items-center justify-content-center">
+            <p class="mb-0 text-center">Copyright © 2024 <span class="text-primary fw-bold">Linh Lu</span>. All Rights
+                Reserved.</p>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/toggle-color-mode.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

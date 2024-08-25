@@ -1,0 +1,43 @@
+.nav-link.active {
+    color: var(--bs-primary) !important;
+}
+
+/* Optional: To change the hover effect for active links */
+.nav-link:hover {
+    color: var(--bs-primary) !important;
+}
+
+.min-vh-75 {
+    min-height: 75vh;
+}
+
+min-vh-60 {
+    min-height: 60vh;
+}
+
+.image-width {
+    width: 60%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.border-hover {
+    transition: all 0.4s ease-out;
+    border: 2px solid transparent;
+}
+
+.shadow-top {
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.border-hover:hover {
+    border-color: var(--bs-primary);
+}
+
+@media screen and (max-width: 992px) {
+    .image-width {
+        width: 75%;
+    }
+}
