@@ -26,11 +26,6 @@ This portfolio was built as a personal showcase for Linh's work, featuring:
 - Interactive sections for projects with detailed descriptions.
 - A contact form allowing visitors to get in touch with Linh directly.
 
-## How to Use
-1. Visit the [live demo link](https://sangvo117.github.io/Linh-portfolio-CoderSchool/).
-2. Navigate through the different sections to explore Linh's portfolio.
-3. Feel free to use the contact form to reach out.
-
 ## Acknowledgments
 - **Mentor:** Sang Vo, for providing guidance and support throughout the development of this portfolio.
 - **CoderSchool:** For the curriculum and resources that helped in creating this project.
